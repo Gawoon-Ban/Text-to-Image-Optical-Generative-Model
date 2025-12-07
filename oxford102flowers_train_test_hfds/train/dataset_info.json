@@ -1,0 +1,56 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "oxford102_flower_images_captions_en_vi",
+  "dataset_size": 14982087,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/TienAnh/Oxford102_Flower_Images_Captions_EN_VI@d24c97f9d73cc38a8b2f93c232b7b2bea0079c4b/data/train-00000-of-00001.parquet": {
+      "num_bytes": 4837347,
+      "checksum": null
+    }
+  },
+  "download_size": 4837347,
+  "features": {
+    "class": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "img": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "text": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "text_vi": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 19819434,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 14982087,
+      "num_examples": 8189,
+      "dataset_name": "oxford102_flower_images_captions_en_vi"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
