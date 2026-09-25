@@ -1,10 +1,4 @@
-<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Text-to-Image Optical Generative Model</title>
-</head>
 <body>
   <h1>Text-to-Image Optical Generative Model</h1>
   <p><b>Generating images that fit text prompts using optical elements (SLM &amp; DOE)</b></p>
